@@ -16,8 +16,7 @@ public class Gerente extends Funcionario {
 
     public void setSenha(int senha) {
         this.senha = senha;
-        //teste pra ver se ta commitando ou nao
-        int a = 1;
+
     }
 
 }
