@@ -28,4 +28,8 @@ public class Funcionario {
     public String getNome() {
         return nome;
     }
+
+    public double getBonificacao(){
+        return this.salario * 0.1;
+    }
 }
