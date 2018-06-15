@@ -16,7 +16,6 @@ public class Gerente extends Funcionario {
 
     public void setSenha(int senha) {
         this.senha = senha;
-
     }
 
 }
