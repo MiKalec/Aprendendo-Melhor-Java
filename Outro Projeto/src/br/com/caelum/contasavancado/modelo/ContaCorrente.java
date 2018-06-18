@@ -7,7 +7,7 @@ public class ContaCorrente implements ContaTributavel {
     private String titular;
     private int numero;
     private String agencia;
-    protected double saldo;
+    private double saldo;
 
 
     @Override
@@ -74,6 +74,6 @@ public class ContaCorrente implements ContaTributavel {
 
     @Override
     public void atualiza(double taxaSelic) {
-
+        this.saldo += this.saldo * taxaSelic;
     }
 }

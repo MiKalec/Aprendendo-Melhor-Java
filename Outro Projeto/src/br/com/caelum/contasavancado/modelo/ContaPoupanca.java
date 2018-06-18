@@ -6,7 +6,7 @@ public class ContaPoupanca implements Conta {
     private String titular;
     private int numero;
     private String agencia;
-    protected double saldo;
+    private double saldo;
 
     public String getTitular() {
         return titular;
