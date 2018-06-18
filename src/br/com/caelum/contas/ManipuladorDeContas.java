@@ -23,12 +23,19 @@ public class ManipuladorDeContas {
     }
 
     public void deposita(Evento evento){
-        double valorDigitado = evento.getDouble("valor"); //campo que ele lê na interface
+        double valorDigitado = evento.getDouble("valorOperacao"); //campo que ele lê na interface
         this.conta.deposita(valorDigitado);
     }
 
     public void saca(Evento evento){
-        double valorSaque = evento.getDouble("valor");
+        double valorSaque = evento.getDouble("valorOperacao");
         this.conta.saca(valorSaque);
+    }
+
+    public void transfere(Evento evento){
+        double valorTranfere = evento.getDouble("valorTransferencia");
+        Conta destino = (Conta) evento.getSelecionadoNoCombo("destino");
+
+        conta.transfere(valorTranfere, destino);
     }
 }

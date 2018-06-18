@@ -4,7 +4,7 @@ public class Conta {
     private String titular;
     private int numero;
     private String agencia;
-    private double saldo;
+    protected double saldo;
     private Data dataAbertura;
     private static int numContasCriadas;
     private int identificador;
@@ -40,6 +40,8 @@ public class Conta {
     public Data getDataAbertura() {
         return dataAbertura;
     }
+
+    public String getTipo(){ return "Conta";}
 
     public static int getNumContasCriadas() {
         return numContasCriadas;
@@ -84,6 +86,16 @@ public class Conta {
         dados += "\nRendimento mensal: " + calculaRendimento();
         dados += "\nIdentificador: " + getIdentificador();
         return dados;
+    }
+
+    public boolean transfere(double valor, Conta destino){
+
+        if(this.saldo>=valor){
+            this.saca(valor);
+            destino.deposita(valor);
+            return true;
+        }
+        return false;
     }
 
     public Conta(){}
