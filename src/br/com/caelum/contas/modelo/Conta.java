@@ -1,6 +1,6 @@
 package br.com.caelum.contas.modelo;
 
-public class Conta {
+public abstract class Conta {
     private String titular;
     private int numero;
     private String agencia;
@@ -41,7 +41,7 @@ public class Conta {
         return dataAbertura;
     }
 
-    public String getTipo(){ return "Conta";}
+    public abstract String getTipo();
 
     public static int getNumContasCriadas() {
         return numContasCriadas;
@@ -85,6 +85,7 @@ public class Conta {
         dados += "\nbr.com.caelum.contas.modelo.Data de Abertura: " + getDataAbertura().formatada();
         dados += "\nRendimento mensal: " + calculaRendimento();
         dados += "\nIdentificador: " + getIdentificador();
+        dados += "\nTipo: "	+ this.getTipo();
         return dados;
     }
 
@@ -98,9 +99,9 @@ public class Conta {
         return false;
     }
 
-    public Conta(){}
+    //public Conta(){}
 
-    public Conta(String titular, int numero, String agencia, Data data){
+    /*public Conta(String titular, int numero, String agencia, Data data){
         this.titular = titular;
         this.numero = numero;
         this.agencia = agencia;
@@ -108,6 +109,6 @@ public class Conta {
         this.dataAbertura = data;
         Conta.numContasCriadas++;
         this.setIdentificador(Conta.getNumContasCriadas());
-    }
+    }*/
 
 }
