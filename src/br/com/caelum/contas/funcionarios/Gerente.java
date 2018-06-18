@@ -1,6 +1,8 @@
 package br.com.caelum.contas.funcionarios;
 
-public class Gerente extends Funcionario {
+import br.com.caelum.contas.interfaces.Autenticavel;
+
+public class Gerente extends Funcionario implements Autenticavel {
     private int senha;
     private int numFuncionariosGerenciados;
 
@@ -20,6 +22,6 @@ public class Gerente extends Funcionario {
 
     @Override
     public double getBonificacao(){
-        return this.salario * 0.15;
+        return this.salario * 1.20;
     }
 }
