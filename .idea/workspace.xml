@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f152e48-d45e-4f7f-b188-d1218f4b20bb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/funcionarios/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/funcionarios/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/funcionarios/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/funcionarios/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/main/TestaContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/main/TestaContas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +25,55 @@
       <file leaf-file-name="TestaContas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContaCorrente.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaCorrente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContaPoupanca.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaPoupanca.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManipuladorDeContas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Evento.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/fj11-lib-contas.jar!/br/com/caelum/javafx/api/util/Evento.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -32,11 +81,11 @@
       <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Funcionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,15 +104,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gerente.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gerente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="e#452#453#0" expanded="true" />
                 <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
               </folding>
             </state>
@@ -74,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaGerente.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -115,21 +164,23 @@
         <option value="$PROJECT_DIR$/src/Fixação/casa/Testes.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/Banco.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaJar.java" />
-        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/MnipuladorDeContas.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/Conta.java" />
-        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaGerente.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaPoupanca.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
+    <option name="x" value="498" />
     <option name="y" value="-4" />
-    <option name="width" value="692" />
-    <option name="height" value="904" />
+    <option name="width" value="690" />
+    <option name="height" value="893" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -139,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +213,7 @@
               <item name="Aprendendo melhor Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contas" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Aprendendo melhor Java" type="b2602c69:ProjectViewProjectNode" />
@@ -175,6 +224,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529091274040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adicionando coisas aprendidas.">
+      <created>1529091637160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529091637160</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,22 +415,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-14" width="1385" height="915" extended-state="6" />
+    <frame x="57" y="-4" width="1383" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32904884" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50162077" side_tool="true" weight="0.28539577" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33891752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33891752" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49837926" weight="0.32860824" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32860824" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2842184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21989529" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -385,7 +444,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32904884" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +477,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commita ai" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commita ai" />
+    <MESSAGE value="Adicionando coisas aprendidas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando coisas aprendidas." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,24 +486,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/modelo/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -468,8 +509,7 @@
         <state relative-caret-position="75">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,8 +544,7 @@
         <state relative-caret-position="75">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,17 +752,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/fj11-lib-contas.jar!/br/com/caelum/javafx/api/util/Evento.class">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaGerente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,44 +783,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaGerente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaContas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/fj11-lib-contas.jar!/br/com/caelum/javafx/api/util/Evento.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaCorrente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/modelo/ContaPoupanca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
