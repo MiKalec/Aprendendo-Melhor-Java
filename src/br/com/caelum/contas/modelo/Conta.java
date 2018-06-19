@@ -55,20 +55,31 @@ public abstract class Conta {
         return identificador;
     }
 
-    public boolean saca(double valor){
-        if(getSaldo()<valor || valor < 0) return false;
+    public void saca(double valor){
+        if(valor> this.getSaldo()){
+            throw new IllegalArgumentException("Valor inválido");
+        }else{
+            this.saldo -= valor;
+        }
+        /*if(getSaldo()<valor || valor < 0) return false;
 
         this.saldo = this.saldo - valor;
 
-        return true;
+        return true;*/
     }
 
     public void deposita(double valor){
-        if(valor>=0){
+        if(valor<=0){
+            throw new IllegalArgumentException("Valor Inválido");
+        }else{
+            this.saldo += valor;
+        }
+
+        /*if(valor>=0){
             this.saldo = this.saldo + valor;
         }else{
             System.out.println("Valor inválido.");
-        }
+        }*/
 
     }
 
