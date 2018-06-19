@@ -1,7 +1,5 @@
 package br.com.caelum.contas.modelo;
 
-import br.com.caelum.contas.interfaces.Tributavel;
-
 public class SeguroDeVida implements Tributavel {
     private String titular;
     private double valor;

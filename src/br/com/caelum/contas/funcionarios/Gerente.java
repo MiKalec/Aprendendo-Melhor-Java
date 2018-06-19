@@ -1,6 +1,6 @@
 package br.com.caelum.contas.funcionarios;
 
-import br.com.caelum.contas.interfaces.Autenticavel;
+import br.com.caelum.contas.modelo.Autenticavel;
 
 public class Gerente extends Funcionario implements Autenticavel {
     private int senha;

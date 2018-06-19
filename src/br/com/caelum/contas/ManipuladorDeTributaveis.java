@@ -1,6 +1,6 @@
 package br.com.caelum.contas;
 
-import br.com.caelum.contas.interfaces.Tributavel;
+import br.com.caelum.contas.modelo.Tributavel;
 import br.com.caelum.javafx.api.util.Evento;
 
 public class ManipuladorDeTributaveis {

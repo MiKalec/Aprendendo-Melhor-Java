@@ -1,6 +1,6 @@
 package br.com.caelum.contas.clientes;
 
-import br.com.caelum.contas.interfaces.Autenticavel;
+import br.com.caelum.contas.modelo.Autenticavel;
 
 public class Cliente implements Autenticavel {
     private int senha;
