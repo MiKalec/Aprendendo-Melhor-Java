@@ -29,6 +29,7 @@ public class TestaBanco {
 
         System.out.println(banco.contemConta(banco.getContas()[0]));
         Conta c1 = new ContaCorrente();
+        banco.adiciona(c1);
         System.out.println(banco.contemConta(c1));
 
         /*ContaCorrente c1	=	new	ContaCorrente();
