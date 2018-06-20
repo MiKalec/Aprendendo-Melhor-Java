@@ -22,6 +22,14 @@ public class Banco {
         return contas;
     }
 
+    public boolean contemConta(Conta conta){
+        for(Conta c:this.contas ){
+            if(c == conta)
+                return true;
+        }
+        return false;
+    }
+
     public boolean adiciona(Conta conta){
         for(int i = 0; i<this.contas.length; i++){
             if(this.contas[i] == null){

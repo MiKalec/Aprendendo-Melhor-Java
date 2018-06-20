@@ -12,6 +12,7 @@ public class TestaBanco {
         }
         System.out.print(infos);
     }
+
     public static void main(String[] args){
 
         Banco banco = new Banco("Caelum Bank", 999);
@@ -25,6 +26,10 @@ public class TestaBanco {
             conta.deposita(1000 + i * 100);
             banco.adiciona(conta);
         }
+
+        System.out.println(banco.contemConta(banco.getContas()[0]));
+        Conta c1 = new ContaCorrente();
+        System.out.println(banco.contemConta(c1));
 
         /*ContaCorrente c1	=	new	ContaCorrente();
         c1.setTitular("Batman");
