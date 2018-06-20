@@ -16,7 +16,7 @@ public class TestaString {
         System.out.println(trasFrente);
     }
     private void converteInt(String x){
-        int i =Integer.parseInt(x);
+        int i = Integer.parseInt(x);
         System.out.println(i);
     }
 
