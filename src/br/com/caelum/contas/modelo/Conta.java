@@ -112,7 +112,7 @@ public abstract class Conta {
 
     @Override
     public String toString(){
-        return "[Titular: " + titular.toUpperCase() + ", número: " + numero + ", agencia:" + agencia + "]";
+        return "[Titular: " + titular/*.toUpperCase()*/ + ", número: " + numero + ", agencia: " + agencia + ", saldo: " + saldo + "]";
     }
 
     @Override

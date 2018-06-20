@@ -18,6 +18,10 @@ public class Banco {
         return numero;
     }
 
+    public Conta[] getContas() {
+        return contas;
+    }
+
     public boolean adiciona(Conta conta){
         for(int i = 0; i<this.contas.length; i++){
             if(this.contas[i] == null){
@@ -25,6 +29,7 @@ public class Banco {
                 return true;
             }
         }
+        System.out.println("Não tem espaço para adicionar mais contas.");
         return false;
     }
 }
