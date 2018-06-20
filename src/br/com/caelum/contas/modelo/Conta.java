@@ -110,6 +110,21 @@ public abstract class Conta {
         return false;
     }
 
+    @Override
+    public String toString(){
+        return "[Titular: " + titular.toUpperCase() + ", número: " + numero + ", agencia:" + agencia + "]";
+    }
+
+    @Override
+    public boolean equals(Object object){
+        if(object == null) return false;
+
+        Conta verifica = (Conta) object;
+
+        return (this.numero == verifica.numero &&
+                this.agencia.equals(verifica.agencia));
+
+    }
     //public Conta(){}
 
     /*public Conta(String titular, int numero, String agencia, Data data){
