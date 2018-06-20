@@ -7,6 +7,18 @@ public class TestaString {
             System.out.println(s.charAt(i));
         }
     }
+    //ex6
+    private void imprimeTrasPraFrente(String s){
+        String trasFrente ="";
+        for(int i = s.length() - 1; i>=0; i--){
+            trasFrente = trasFrente + s.charAt(i);
+        }
+        System.out.println(trasFrente);
+    }
+    private void converteInt(String x){
+        int i =Integer.parseInt(x);
+        System.out.println(i);
+    }
 
     public static void main(String[] args){
         String s = " fj11 ";
@@ -24,6 +36,9 @@ public class TestaString {
 
         TestaString t = new TestaString();
         t.imprimeLinhaLinha(semEspaco);
+        t.imprimeTrasPraFrente("Socorram-me, subi no ônibus em Marrocos");
+        t.imprimeTrasPraFrente("anotaram a data da maratona");
+        t.converteInt("3231");
 
     }
 }
