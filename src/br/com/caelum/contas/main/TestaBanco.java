@@ -54,6 +54,6 @@ public class TestaBanco {
         banco.adiciona(c3);
         */
         t.printInfos(banco);
-
+        banco.reposicionaArray(20);
     }
 }

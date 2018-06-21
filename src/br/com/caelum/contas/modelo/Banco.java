@@ -40,4 +40,14 @@ public class Banco {
         System.out.println("Não tem espaço para adicionar mais contas.");
         return false;
     }
+
+    public void reposicionaArray(int i){
+        Conta[] novoArray = new Conta[i];
+        int j =0;
+        for(Conta c: this.contas){
+            novoArray[j] = c;
+            j++;
+        }
+        this.contas = novoArray;
+    }
 }
