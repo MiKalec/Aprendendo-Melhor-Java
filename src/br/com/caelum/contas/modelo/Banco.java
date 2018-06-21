@@ -1,13 +1,18 @@
 package br.com.caelum.contas.modelo;
 
+import java.util.List;
+import java.util.Map;
+
 public class Banco {
     private String nome;
     private int numero;
-    private Conta[] contas;
+    private List<Conta> contas;
+    private Map<String, Conta> mapaContas;
     public Banco(String nome, int numero){
         this.nome = nome;
         this.numero = numero;
-        this.contas = new ContaCorrente[10];
+        this.contas = null;
+        this.mapaContas = null;
     }
 
     public String getNome() {
@@ -18,30 +23,36 @@ public class Banco {
         return numero;
     }
 
-    public Conta[] getContas() {
+    public List<Conta> getContas() {
         return contas;
     }
 
+    public Map<String, Conta> getMapaContas() {
+        return mapaContas;
+    }
+
     public boolean contemConta(Conta conta){
-        for(Conta c:this.contas ){
-            if(c == conta)
-                return true;
-        }
-        return false;
+        return this.contas.contains(conta);
     }
 
-    public boolean adiciona(Conta conta){
-        for(int i = 0; i<this.contas.length; i++){
-            if(this.contas[i] == null){
-                this.contas[i] = conta;
-                return true;
-            }
-        }
-        System.out.println("Não tem espaço para adicionar mais contas.");
-        return false;
+    public void adiciona(Conta conta){
+        this.contas.add(conta);
+        this.mapaContas.put(conta.getTitular(), conta);
     }
 
-    public void reposicionaArray(int i){
+    public Conta pega(int x){
+        return this.contas.get(x);
+    }
+
+    public int pegaQuantidadeDeContas(){
+        return this.contas.size();
+    }
+
+    public Conta buscaPorTitular(String titular){
+        return this.mapaContas.get(titular);
+    }
+
+    /*public void reposicionaArray(int i){
         Conta[] novoArray = new Conta[i];
         int j =0;
         for(Conta c: this.contas){
@@ -49,5 +60,5 @@ public class Banco {
             j++;
         }
         this.contas = novoArray;
-    }
+    }*/
 }

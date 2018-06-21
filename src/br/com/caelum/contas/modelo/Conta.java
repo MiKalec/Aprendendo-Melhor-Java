@@ -130,6 +130,12 @@ public abstract class Conta implements Comparable<Conta>{
     public int compareTo(Conta conta){
         return this.titular.compareTo(conta.titular);
     }
+
+    @Override
+    public int hashCode() {
+        return this.numero + Integer.parseInt(this.agencia);
+    }
+
     //public Conta(){}
 
     /*public Conta(String titular, int numero, String agencia, Data data){
