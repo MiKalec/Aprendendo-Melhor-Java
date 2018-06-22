@@ -2,8 +2,6 @@ package br.com.caelum.contas.extras;
 
 import java.util.*;
 
-//Será continuada
-
 public class Desafio {
 
     public static void main(String[] args){
