@@ -4,6 +4,8 @@ import br.com.caelum.contas.modelo.Banco;
 import br.com.caelum.contas.modelo.Conta;
 import br.com.caelum.contas.modelo.ContaCorrente;
 
+import java.util.Comparator;
+
 public class TestaBanco {
     public void printInfos(Banco banco){
         String infos = "";
@@ -18,7 +20,7 @@ public class TestaBanco {
         Banco banco = new Banco("Caelum Bank", 999);
         TestaBanco t = new TestaBanco();
 
-        for(int i = 0; i< banco.getContas().length; i++){
+        for(int i = 0; i< 10; i++){
             ContaCorrente conta	=	new	ContaCorrente();
             conta.setTitular("Batman" + i);
             conta.setNumero(i);
@@ -27,7 +29,8 @@ public class TestaBanco {
             banco.adiciona(conta);
         }
 
-        System.out.println(banco.contemConta(banco.getContas()[0]));
+
+        //System.out.println(banco.contemConta(banco.getContas()[0]));
         Conta c1 = new ContaCorrente();
         banco.adiciona(c1);
         System.out.println(banco.contemConta(c1));
@@ -54,6 +57,6 @@ public class TestaBanco {
         banco.adiciona(c3);
         */
         t.printInfos(banco);
-        banco.reposicionaArray(20);
+        //banco.reposicionaArray(20);
     }
 }
