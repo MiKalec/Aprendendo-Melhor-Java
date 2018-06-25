@@ -112,7 +112,7 @@ public abstract class Conta implements Comparable<Conta>{
 
     @Override
     public String toString(){
-        return "[Titular: " + titular/*.toUpperCase()*/ + ", número: " + numero + ", agencia: " + agencia + ", saldo: " + saldo + "]";
+        return "Tipo: "+ this.getTipo() + ", Titular: " + titular/*.toUpperCase()*/ + ", número: " + numero + ", agencia: " + agencia + ", saldo: " + saldo ;
     }
 
     @Override
