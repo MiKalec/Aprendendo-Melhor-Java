@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f152e48-d45e-4f7f-b188-d1218f4b20bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/RepositorioDeContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/ManipuladorDeContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/ManipuladorDeContas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/contas/modelo/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/modelo/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aprendendo melhor Java/br/com/caelum/contas/modelo/Conta.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="RepositorioDeContas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/RepositorioDeContas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="119">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contas.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contas.txt">
+      <file leaf-file-name="TestaInteger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Basico.java" />
         <option value="$PROJECT_DIR$/src/TestaFib.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/Pessoa.java" />
@@ -150,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/ManipuladorDeContas.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/contas/RepositorioDeContas.java" />
         <option value="$PROJECT_DIR$/contas.txt" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaInteger.java" />
       </list>
     </option>
   </component>
@@ -194,13 +191,6 @@
               <item name="contas" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Aprendendo melhor Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aprendendo melhor Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contas" type="462c0819:PsiDirectoryNode" />
-              <item name="modelo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestaContas">
+  <component name="RunManager" selected="Application.TestaInteger">
     <configuration name="Desafio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.caelum.contas.extras.Desafio" />
       <module name="Aprendendo melhor Java" />
@@ -250,13 +240,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestaLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.contas.main.TestaLista" />
+    <configuration name="TestaInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.contas.main.TestaInteger" />
       <module name="Aprendendo melhor Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.caelum.contas.extras.*" />
+          <option name="PATTERN" value="br.com.caelum.contas.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,18 +316,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestaContas" />
-      <item itemvalue="Application.TestaLista" />
       <item itemvalue="Application.TestaPerformance" />
       <item itemvalue="Application.TestaMap" />
       <item itemvalue="Application.Desafio" />
+      <item itemvalue="Application.TestaInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaInteger" />
         <item itemvalue="Application.TestaContas" />
         <item itemvalue="Application.Desafio" />
         <item itemvalue="Application.TestaPerformance" />
         <item itemvalue="Application.TestaMap" />
-        <item itemvalue="Application.TestaLista" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529688605169</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Adicionando coisas aprendidas. Cap 16">
+      <created>1529952189177</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1529952189177</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -664,7 +661,8 @@
     <MESSAGE value="Adicionando coisas aprendidas. Cap 14" />
     <MESSAGE value="Adicionando coisas aprendidas. Cap 15" />
     <MESSAGE value="Adicionando coisas aprendidas. Cap 15 Desafio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando coisas aprendidas. Cap 15 Desafio" />
+    <MESSAGE value="Adicionando coisas aprendidas. Cap 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando coisas aprendidas. Cap 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,13 +670,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Gerente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/funcionarios/Diretor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1001,20 +992,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/RepositorioDeContas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="119">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contas.txt">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/contas/main/TestaInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
